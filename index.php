@@ -49,6 +49,5 @@ $cards = [
 
 $trip = new Trip($cards);
 $tripCardsObj = $trip->sort();
-print_r($tripCardsObj->toArray());
 echo $tripCardsObj->toHTML();
 
